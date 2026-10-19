@@ -28,7 +28,7 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover,.nav-link:hover{
     scale: 1.1;
     transition: 1s;
 }
-social-logo{
+.social-logo{
     width: 22px;
     height: 22px;
     object-fit: contain;
