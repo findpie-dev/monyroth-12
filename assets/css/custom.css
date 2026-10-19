@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "koulen";
+    src: url('../fonts/Koulen/Koulen-Regular.ttf');
+}
+@font-face {
+    font-family: "battambang";
+    src: url('../fonts/Battambang/Battambang-Regular.ttf');
+}
+@font-face {
+    font-family: "openSanBold";
+    src: url('../fonts/Open_Sans/static/OpenSans-Bold.ttf');
+}
+@font-face {
+    font-family: "openSanRegular";
+    src: url(../fonts/Open_Sans/static/OpenSans-Regular.ttf);
+}
+
+body{
+    font-family: 'battambang','openSanRegular';
+}
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: 'koulen','openSanBold';
+    color: blue;
+
+}
+h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover,.nav-link:hover{
+    color: brown; 
+    scale: 1.1;
+    transition: 1s;
+}
+social-logo{
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    transition: tranform 0.2s ease; opacity: 0.2s ease;
+}
